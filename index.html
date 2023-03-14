@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Product Landing Page</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Product Page Example">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Guy Shrigley">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="ProductPageStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+</head>
+<html>
+
+<body>
+    <header class="header">
+        <img class="header__logo" src="Images/Logo%202.png" alt="Company-Logo">
+        <div class="header__options">
+            <div class="header__dropdown">
+                <div class="header__dropdown-text">Region</div>
+                <div class="header__dropdown-menu">
+                    <a class="header__dropdown-option">USA</a>
+                    <a class="header__dropdown-option">Europe</a>
+                    <a class="header__dropdown-option">Asia</a>
+                    <a class="header__dropdown-option">Oceania</a>
+                </div>
+            </div>
+            <img class="header__icon" src="https://img.icons8.com/ios-glyphs/30/ffffff/search--v1.png" />
+            <img class="header__icon" src="https://img.icons8.com/material-rounded/30/ffffff/guest-male.png" />
+            <img class="header__icon" src="https://img.icons8.com/ios-glyphs/30/ffffff/checkout.png" />
+        </div>
+    </header>
+    <nav class="navbar">
+        <div class="navbar__menu">
+            <div class="navbar__icon">
+                <div class="navbar__icon-line"></div>
+                <div class="navbar__icon-line"></div>
+                <div class="navbar__icon-line"></div>
+            </div>
+            <a class="navbar__option">HOME</a>
+            <a class="navbar__option">CATEGORY 1</a>
+            <a class="navbar__option">CATEGORY 2</a>
+            <a class="navbar__option">CATEGORY 3</a>
+            <a class="navbar__option">BLOG</a>
+        </div>
+    </nav>
+    <main>
+        <div class="hero-page">
+            <nav class="breadcrumbs">
+                <a>HOME</a>
+                <div>/</div>
+                <a>CATEGORY 1</a>
+                <div>/</div>
+                <a>PRODUCT A</a>
+            </nav>
+            <div class="hero">
+                <h1 class="hero__header">Product Name</h1>
+                <h2 class="hero__sub-header">Product Tagline</h2>
+                <p class="hero__paragraph">£000</p>
+                <ul class="hero__list">
+                    <li class="hero__item">Product Key Point </li>
+                    <li class="hero__item">Product Key Point </li>
+                    <li class="hero__item">Product Key Point </li>
+                </ul>
+                <a class="hero__action">Buy Now</a>
+            </div>
+        </div>
+        <div class="detail-page">
+            <div class="slideshow">
+                <div class="slideshow__image-container">
+                    <div class="slideshow__slide">
+                        <img class="slideshow__image" src="images/laptop-1242570.jpg">
+                        <img class="slideshow__image" src="Images/laptop-keyboard-1515695.jpg">
+                        <img class="slideshow__image" src="images/laptop-touchpad-1242354.jpg">
+                    </div>
+                </div>
+                <div class="slideshow__button-container">
+                    <button class="slideshow__button" type="button" name="slideshow-button-left"></button>
+                    <button class="slideshow__button" type="button" name="slideshow-button-middle"></button>
+                    <button class="slideshow__button" type="button" name="slideshow-button-right"></button>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="detail__text-container">
+                    <h1 class="detail__header">Product Name</h1>
+                    <h2 class="detail__sub-header">Product Offer</h2>
+                    <p class="detail__paragraph">£000</p>
+                </div>
+                <div class="detail__selection-container">
+                    <button class="detail__selection--silver" type="button" name="detail-button-silver"></button>
+                    <button class="detail__selection--black" type="button" name="detail-button-black"></button>
+                    <button class="detail__selection--white" type="button" name="detail-button-white"></button>
+                </div>
+                <p class="detail__color"> COLOR: </p>
+                <button class="detail__button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="feature-page">
+            <div class="feature__text-container">
+                <h1 class="feature__header">Product Tagline</h1>
+                <p class="feature__paragraph">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                    est laborum.</p>
+            </div>
+            <div class="feature__display">
+                <img class="feature__image" src="Images/laptop-g46aa25a7d_1280.jpg">
+                <p class="feature__caption">Product Feature Text</p>
+                <p class="feature__caption">Product Feature Text</p>
+                <img class="feature__image" src="Images/keyboard-g5bce26bf3_1280.jpg">
+            </div>
+        </div>
+        <div class="testimony-page">
+            <div class="testimony__frame">
+                <div class="testimony__slide-container testimony__slide-container--left">
+                    <blockquote class="testimony__slide-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed
+                        do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum.
+                        <h2 class="testimony__attribution">-Customer Testimony</h2>
+                    </blockquote>
+                    <blockquote class="testimony__slide-right">Sed ut perspiciatis unde omnis iste natus error sit
+                        voluptatem
+                        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                        veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+                        voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                        voluptatem sequi nesciunt.
+                        <h2 class="testimony__attribution">-Product Review</h2>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="testimony__button-container">
+                <button class="testimony__button" name="testimony-button-left"></button>
+                <button class="testimony__button" name="testimony-button-right"></button>
+            </div>
+        </div>
+        <div class="technical-page">
+
+            <h2 class="technical__header">
+                Technical Specifications</h2>
+            <h2 class="technical__sub-header">Components</h2>
+            <table class="technical__components">
+                <tr>
+                    <th>Component Type</th>
+                    <td>Component Spec</td>
+                </tr>
+                <tr>
+                    <th>Component Type</th>
+                    <td>Component Spec</td>
+                </tr>
+                <tr>
+                    <th>Component Type</th>
+                    <td>Component Spec</td>
+                </tr>
+                <tr>
+                    <th>Component Type</th>
+                    <td>Component Spec</td>
+                </tr>
+                <tr>
+                    <th>Component Type</th>
+                    <td>Component Spec</td>
+                </tr>
+            </table>
+            <h2 class="technical__sub-header">Capabilities</h2>
+            <table class="technical__capabilities">
+                <tr>
+                    <th>Capability</th>
+                    <td>Performance</td>
+                </tr>
+                <tr>
+                    <th>Capability</th>
+                    <td>Performance</td>
+                </tr>
+                <tr>
+                    <th>Capability</th>
+                    <td>Performance</td>
+                </tr>
+            </table>
+
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__social">
+            <ul class="footer__icon-container">
+                <i class="fab fa-facebook-square footer__icon" href="#"></i>
+                <i class="fab fa-linkedin footer__icon" href="#"></i>
+                <i class="fab fa-twitter-square footer__icon" href="#"></i>
+                <i class="fab fa-instagram footer__icon" href="#"></i>
+            </ul>
+            <ul class="footer__subscribe">
+                <h2 class="footer__header">Subscribe</h2>
+                <p class="footer__paragraph">Sign up for updates & offers.</p>
+                <form class="footer__form">
+                    <input type="text" class="footer__email" placeholder="YOUR EMAIL ADDRESS">
+                    <input type="submit" class="footer__button" value="SUBMIT">
+                    <div class="footer__confirmation">
+                        <input type="checkbox" class="footer__checkbox">
+                        <p class="footer__paragraph">By checking this box you agree to receive updates,
+                            promotions and content. </p>
+                    </div>
+                </form>
+            </ul>
+        </div>
+        <nav class="footer__links">
+            <ul id="footer__contact">
+                <h2>CONTACT US</h2>
+                <li><a href="#">CONTACT US</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">LEGAL</a></li>
+            </ul>
+            <ul class="footer__about">
+                <h2>ABOUT US</h2>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">REVIEWS</a></li>
+            </ul>
+            <ul id="footer-nav-support">
+                <h2>SUPPORT</h2>
+                <li><a href="#">AFFILIATES</a></li>
+                <li><a href="#">SEARCH</a></li>
+                <li><a href="#">SITEMAP</a></li>
+            </ul>
+        </nav>
+        <div class="footer__meta">
+            <p class="footer__mark">© 2021 Guy Shrigley</p>
+            <a href="" class="footer__privacy">Privacy Policy</a>
+            <a href="" class="footer__terms">Terms and Conditions</a>
+        </div>
+    </footer>
+
+</body>
+<script src="./animations.js"> </script>
+
+</html>
