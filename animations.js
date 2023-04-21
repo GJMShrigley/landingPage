@@ -19,7 +19,6 @@ function slideSelector(e) {
 }
 
 function slideReset() {
-    const imageWidth = slideshowImages[0].width.toString();
     slideshowSlide.style.left = "0px";
 }
 
